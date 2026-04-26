@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Date Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background Blobs -->
+    <div class="bg-wrapper">
+        <div class="blob blob1"></div>
+        <div class="blob blob2"></div>
+        <div class="blob blob3"></div>
+    </div>
+
+    <a href="https://calculatorpwu.org" class="home-btn">← Home</a>
+
+    <div class="glass-container">
+        <header>
+            <h1>Date Calculator</h1>
+            <p>Precision Time Measurement</p>
+        </header>
+        
+        <div class="input-section">
+            <div class="input-group">
+                <label>From Date</label>
+                <input type="date" id="fromDate">
+            </div>
+
+            <div class="input-group">
+                <label>To Date</label>
+                <input type="date" id="toDate">
+            </div>
+        </div>
+
+        <button id="calculateBtn">Calculate Difference</button>
+
+        <div id="result" class="result-area">
+            <div class="placeholder-text">Enter dates to begin</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
