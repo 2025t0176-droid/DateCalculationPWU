@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Date Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background Blobs -->
+    <div class="bg-wrapper">
+        <div class="blob blob1"></div>
+        <div class="blob blob2"></div>
+        <div class="blob blob3"></div>
+    </div>
+
+    <a href="https://calculatorpwu.org" class="home-btn">← Home</a>
+
+    <!-- PASTE THIS DIRECTLY UNDER YOUR <body> TAG -->
+<div style="position: absolute; top: 20px; right: 20px; display: flex; gap: 12px; z-index: 999;">
+    <!-- Sample 1 Button -->
+    <a href="https://2025t0176-droid.github.io/ProgrammerCalculatorPWU/" target="_blank" style="padding: 8px 16px; background: transparent; color: white; border: 1px solid rgba(255, 255, 255, 0.4); text-decoration: none; border-radius: 6px; font-family: sans-serif;">Programmer Calculator</a>
+    
+    <!-- Sample 2 Button -->
+    <a href="https://2025t0176-droid.github.io/StandardBasicCaculatorPWU/" target="_blank" style="padding: 8px 16px; background: transparent; color: white; border: 1px solid rgba(255, 255, 255, 0.4); text-decoration: none; border-radius: 6px; font-family: sans-serif;">StandardBasic Calculator</a>
+</div>
+
+
+    <div class="glass-container">
+        <header>
+            <h1>Date Calculator</h1>
+            <p>Precision Time Measurement</p>
+        </header>
+        
+        <div class="input-section">
+            <div class="input-group">
+                <label>From Date</label>
+                <input type="date" id="fromDate">
+            </div>
+
+            <div class="input-group">
+                <label>To Date</label>
+                <input type="date" id="toDate">
+            </div>
+        </div>
+
+        <button id="calculateBtn">Calculate Difference</button>
+
+        <div id="result" class="result-area">
+            <div class="placeholder-text">Enter dates to begin</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
